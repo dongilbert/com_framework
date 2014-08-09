@@ -16,7 +16,7 @@ JLoader::registerNamespace('Framework', __DIR__ . '/src');
 $app = JFactory::getApplication();
 
 // Set the default view
-$app->input->def('view', 'default');
+$app->input->def('view', 'list');
 
 $container = new Joomla\DI\Container;
 $container->set('JApplicationCms', $app);
