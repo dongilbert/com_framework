@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <menu>
+        <options var="view">
+            <option name="List View" msg="List view" value="list" />
+        </options>
+        <options var="view">
+            <option name="Detail View" msg="Detail view" value="detail" />
+        </options>
+    </menu>
+</metadata>
